@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather APP</title>
+    <link rel="icon" type="image/x-icon" href="./images/app-logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <h1 class="mx-auto mt-2 text-center">Steps to follow</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-3 mr-3">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-5 offset-lg-1 rounded bg-info">
+                <h1>Step 1: Enter a valid city</h1>
+            </div>
+            <div class="col-12 col-md-6 col-lg-5 offset-lg-1 rounded bg-info">
+                <h1>Step 2: Hit go to generate weather information</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <div class="col-12 col-md-6 offset-md-3">
+                <h3 class="text-center">Enter the city:</h3>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control rounded-pill">
+                    <div>
+                        <button class="btn rounded-pill bg-dark text-white" type="button">Go</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <p class="text-center">City Entered: <span></span></p>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row m-4">
+            <div class="col-6 col-md-6 col-lg-3 mt-2">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h3 class="card-title text-decoration-underline">Weather</h3>
+                      <h4 class="card-text">Weather: <span id="weather"></span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-6 col-lg-3 mt-2">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h3 class="card-title text-decoration-underline">Temperature</h3>
+                      <h4 class="card-text">Maximum Temperature: </h4>
+                      <h4 class="card-text">Minimum Temperature: </h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-6 col-lg-3 mt-2">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h3 class="card-title text-decoration-underline">Wind</h3>
+                      <h4 class="card-text">Speed: </h4>
+                      <h4 class="card-text">degrees: </h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-6 col-lg-3 mt-2">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h3 class="card-title text-decoration-underline">Other details</h3>
+                      <h4 class="card-text">Pressure: </h4>
+                      <h4 class="card-text">Visibility: </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="mt-5">
+        <div class="container-fluid">
+            <div class="row offset-lg-10 col-12 col-md-6 col-lg-2">
+                <h4>Connect with me!</h4>
+            </div>
+
+            <ul class="offset-lg-10">
+                <li>
+                    <a href="https://www.linkedin.com/in/vojas-gonnade-57523522a" class="my-1 link-dark">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                </li>
+                <li class="mt-1">
+                    <a href="https://github.com/Vojaspy" class="my-2 link-dark">
+                        <i class="bi bi-github"></i>
+                    </a>
+                </li>
+                <li class="mt-1">
+                    <a href="mailto:vojasgonnade07@gmail.com" class="my-1 link-dark">
+                        <i class="bi bi-envelope"></i>
+                    </a>
+                </li>
+                <li class="mt-1">
+                    <a href="https://www.instagram.com/vojas.gonnade" class="my-1 link-dark">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                </li>
+                
+            </ul>
+            <span>&copy All rights reserved | privacy policy</span>
+        </div>
+    </footer>
+</body>
+
+</html>
