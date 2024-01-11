@@ -11,7 +11,7 @@ This Weather App provides real-time weather information for a given location. It
 - **Pressure:** Access real-time atmospheric pressure data.
 
 ## Installation and Usage
-1. Clone the repository: git clone https://github.com/your-username/weather-app.git
+1. Clone the repository: git clone https://github.com//weather-app.git
 2. Navigate to the project directory: cd Weather APP
 3. Install dependencies: npm install
 4. Obtain a free API key from OpenWeatherMap.org
