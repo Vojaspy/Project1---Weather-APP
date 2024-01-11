@@ -36,9 +36,9 @@
             <div class="col-12 col-md-6 offset-md-3">
                 <h3 class="text-center">Enter the city:</h3>
                 <div class="input-group mb-3">
-                    <input type="text" class="form-control rounded-pill">
+                    <input type="text" class="form-control rounded-pill" id="inputCity">
                     <div>
-                        <button class="btn rounded-pill bg-dark text-white" type="button">Go</button>
+                        <button class="btn rounded-pill bg-dark text-white" type="button" id="submit">Go</button>
                     </div>
                 </div>
             </div>
@@ -47,7 +47,7 @@
 
     <div class="container-fluid">
         <div class="row">
-            <p class="text-center">City Entered: <span></span></p>
+            <p class="text-center h4">City Entered: <span id="city-entered"></span></p>
         </div>
     </div>
 
@@ -65,8 +65,8 @@
                 <div class="card" style="width: 18rem;">
                     <div class="card-body">
                       <h3 class="card-title text-decoration-underline">Temperature</h3>
-                      <h4 class="card-text">Maximum Temp: </h4>
-                      <h4 class="card-text">Minimum Temp: </h4>
+                      <h4 class="card-text">Maximum Temp: <span id="min_temp"></span> </h4>
+                      <h4 class="card-text">Minimum Temp: <span id="max_temp"></span></h4>
                     </div>
                 </div>
             </div>
@@ -74,8 +74,8 @@
                 <div class="card" style="width: 18rem;">
                     <div class="card-body">
                       <h3 class="card-title text-decoration-underline">Wind</h3>
-                      <h4 class="card-text">Speed: </h4>
-                      <h4 class="card-text">Degrees: </h4>
+                      <h4 class="card-text">Speed: <span id="speed"></span> </h4>
+                      <h4 class="card-text">Degrees: <span id="degrees"></span></h4>
                     </div>
                 </div>
             </div>
@@ -83,8 +83,8 @@
                 <div class="card" style="width: 18rem;">
                     <div class="card-body">
                       <h3 class="card-title text-decoration-underline">Other details</h3>
-                      <h4 class="card-text">Pressure: </h4>
-                      <h4 class="card-text">Visibility: </h4>
+                      <h4 class="card-text">Pressure: <span id="pressure"></span> </h4>
+                      <h4 class="card-text">Visibility: <span id="visibility"></span></h4>
                     </div>
                 </div>
             </div>
@@ -123,6 +123,8 @@
             <span>&copy All rights reserved | privacy policy</span>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
