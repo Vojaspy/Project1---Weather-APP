@@ -25,3 +25,17 @@ This Weather App provides real-time weather information for a given location. It
 
 ## API Used
 - **OpenWeatherMap API**
+
+
+![image](https://github.com/Vojaspy/Project1---Weather-APP/assets/116672030/37b333a9-709c-419b-9d9a-e98311bfde8d)
+
+![image](https://github.com/Vojaspy/Project1---Weather-APP/assets/116672030/c431613b-8bae-4ba6-9e0a-692e18ec98d6)
+
+![image](https://github.com/Vojaspy/Project1---Weather-APP/assets/116672030/4dff1482-f71e-4034-933e-891ef45807c9)
+
+![image](https://github.com/Vojaspy/Project1---Weather-APP/assets/116672030/eb79c4e7-e69c-42e6-a7cd-7968d171ebc1)
+
+![image](https://github.com/Vojaspy/Project1---Weather-APP/assets/116672030/d19359a1-2cc7-4782-b275-1d678a6073ab)
+
+
+
